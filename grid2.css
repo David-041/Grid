@@ -15,13 +15,13 @@
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover; /* Ensure images cover the area without distortion */
-    border-radius: 8px; /* Optional: add some rounding to the corners */
+    object-fit: cover; 
+    border-radius: 8px; /**/
 }
 
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
     .gallery {
-        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-columns: 1fr;
     }
 }
